@@ -51,12 +51,57 @@
 # print(myList)
 
 #  Change the second and third value by replacing it with one value
-myList = ["apple", "banana", "cherry"]
+from cgi import print_environ
+
+
+#myList = ["apple", "banana", "cherry"]
 # myList[1:3] = ["watermelon"]
 # print(myList)
 
 #Insert Items
-myList.insert(2,"marranos")
-print(myList)
+#myList.insert(2,"marranos")
+#print(myList)
 
-# NOte: aqui voy - https://www.w3schools.com/python/python_lists_add.asp
+## NOte: aqui voy - https://www.w3schools.com/python/python_lists_add.asp
+
+# Add List Item
+#  used the append()
+
+#
+#myList.append("orange")
+#print(myList)
+
+# used the insert item
+# insert() method
+
+#myList.insert(1,"Pasio fruit")
+#print(myList)
+
+# Extend List, used the extend() method.
+#tropical = ["mango","pineaple", "papaya"]
+#myList.extend(tropical)
+#print(myList)
+
+#Add nay iterable with extend() method
+#myDupla = ("Kiwi", "orange")
+#myList.extend(myDupla)
+#print(myList)
+
+# Remove Listr Items
+#   use the remove() method removes the specified item
+#myList.remove("banana")
+#print(myList)
+
+#  remove Specified Index
+# use the pop() method removes the specified inds.
+#myList.pop(1)
+#print(myList)
+myList = ["apple", "banana", "cherry"]
+#myList.pop()
+#print(myList)
+#del myList[0]
+#print(myList)
+
+# Clear the Lisyt, use the clear() method emties lisyt
+myList.clear()
+print(myList)
