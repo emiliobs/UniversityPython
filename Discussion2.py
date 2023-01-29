@@ -8,7 +8,8 @@ print()
 
 print("=========================================================")
 print("A")
-print(s2[0:2].upper())
+#print(s2[0:2].upper())
+print(s2[:-1].upper())
 
 print("=========================================================")
 print("B")
@@ -16,7 +17,8 @@ print(s2 + s1 + s2)
 
 print("=========================================================")
 print("C")
-print((s1.capitalize().ljust(4) + s2.capitalize().ljust(4)).ljust(5) * 3)
+#print((s1.capitalize().ljust(4) + s2.capitalize().ljust(4)).ljust(5) * 3)
+print((s1.title()+" "+s2.title()+"")*3)
 
 print("=========================================================")
 print("D")
@@ -28,7 +30,8 @@ print(s1.split("a"))
 
 print("=========================================================")
 print("F")
-print(s1[0:2] + s1[3])
+#print(s1[0:2] + s1[3])
+print("".join(s1.split("a")))
 
 
 
