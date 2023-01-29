@@ -18,7 +18,7 @@ print("{0:0.2f} {0:.2f}".format(2.3, 2.3468))
 
 print("====================================================")
 print('E - " {7 . 5f} {7 . 5f} " . format (2 . 3 , 2 . 3468)')
-print("{7.5f} {7.5f}".format(2.3, 2.3468))
+#print("{7.5f} {7.5f}".format(2.3, 2.3468))
 print("IndexError: Replacement index 7 out of range for positional args tuple , Error -- Missing position specifier (or leading :)")
 
 print("====================================================")
@@ -28,7 +28,7 @@ print("Time left {0:02}:{1:05.2f}".format(1, 37.374))
 
 print("====================================================")
 print('G - {1 : 3} " . format ( " 14" )')
-print("{1:3}".format(14))
+#print("{1:3}".format(14))
 print("IndexError: Replacement index 1 out of range for positional args tuple Error - There is no argument 1")
 
 
