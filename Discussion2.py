@@ -16,7 +16,7 @@ print(s2 + s1 + s2)
 
 print("=========================================================")
 print("C")
-print((s1.capitalize().ljust(5) + s2.capitalize().ljust(5)).ljust(5) * 3)
+print((s1.capitalize().ljust(4) + s2.capitalize().ljust(4)).ljust(5) * 3)
 
 print("=========================================================")
 print("D")
