@@ -5,3 +5,6 @@
 
 ## Fuctions invesment program
 <img width="948" alt="graphis" src="https://user-images.githubusercontent.com/3122465/218458297-7d3a711a-e76a-41e0-bc3f-846660ae9bef.png">
+
+## Fucntion with parameter
+<img width="945" alt="winparam" src="https://user-images.githubusercontent.com/3122465/218468100-63d43e71-adb6-47c9-abed-cc16dbbed042.png">
