@@ -14,3 +14,5 @@
 lists = "87 104 97 116 92 32 83 32 83 111 117 114 112 117 115 115 33".split()
 
 print(lists)
+
+print(int(len(range(4.5))))

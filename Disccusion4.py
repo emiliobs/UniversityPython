@@ -18,7 +18,7 @@ print("{0:0.2f} {0:.2f}".format(2.3, 2.3468))
 
 print("====================================================")
 print('E - " {7 . 5f} {7 . 5f} " . format (2 . 3 , 2 . 3468)')
-#print("{7.5f} {7.5f}".format(2.3, 2.3468))
+print("{:7.5f} {:7.5f}".format(2.3, 2.3468))
 print("IndexError: Replacement index 7 out of range for positional args tuple , Error -- Missing position specifier (or leading :)")
 
 print("====================================================")
