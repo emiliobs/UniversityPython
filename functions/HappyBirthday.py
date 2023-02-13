@@ -1,8 +1,14 @@
 
 def main():
-    singFred()
+    # singFred()
     print()
-    singLucy()
+    sing("Emilio Barrera")
+    print()
+    sing("Camila")
+    print()
+    sing("Lupa")
+    print()
+    # singLucy()
   
 
 def happy():
